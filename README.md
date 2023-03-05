@@ -1,4 +1,4 @@
-# Dual-Aligned Feature Confusion Alleviation for Generalized Zero-Shot Learning
+# Cross-domain Adaptative Learning for Online Advertisement Customer Lifetime Value Prediction
 
 Hongzu Su, Zhekai Du, Jingjing Li, Lei Zhu, Ke Lu
 
@@ -12,4 +12,4 @@ Abstract: Accurate estimation of customer lifetime value (LTV), which reflects t
 - pytorch 1.13.1
 - tensorflow 2.4 
 
-The code will be release soon.
+The code will be released soon.
