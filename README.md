@@ -1,6 +1,6 @@
 # Dual-Aligned Feature Confusion Alleviation for Generalized Zero-Shot Learning
 
-Hongzu Su, Zhekai Du, Jingjing Li, Ke Lu, Lei Zhu
+Hongzu Su, Zhekai Du, Jingjing Li, Lei Zhu, Ke Lu
 
 ![](./framework.png)
 
