@@ -12,4 +12,5 @@ Abstract: Accurate estimation of customer lifetime value (LTV), which reflects t
 - pytorch 1.13.1
 - tensorflow 2.4 
 
-The code will be released soon.
+# Acknowledgement
+The structure of this code is largely based on the tensorflow implementation of [Sliced Wasserstein Discrepancy](https://github.com/apple/ml-cvpr2019-swd/blob/main/swd.py). Thanks for their work. 
