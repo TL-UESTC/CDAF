@@ -1,3 +1,8 @@
+####
+# An example of ulitizing CDAF to train a model on source domain and target domain.
+# You can replace the model with your own model or mainstream recommendation models.
+####
+
 import torch
 from torch import nn
 import numpy as np
@@ -39,9 +44,13 @@ class DualModel(nn.Module):
 
 def load_data():
     moon_data = np.load('moon_data.npz')
+    # x_s: source domain data
     x_s = moon_data['x_s']
+    # y_s: source domain label
     y_s = moon_data['y_s']
+    # x_t: target domain data
     x_t = moon_data['x_t']
+    # y_t: target domain label
     y_t = moon_data['y_t']
     return x_s, y_s, x_t, y_t
 
